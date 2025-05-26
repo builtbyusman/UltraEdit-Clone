@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+   height: 100vh;
+   background-color: #222222;
+}
+nav {
+    height: 17vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.nav-logo span img {
+    height: 55px;
+}
+.nav-nav {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-nav li {
+    list-style: none;
+    font-size: 16px;
+    color: #222222;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.nav-nav li i {
+    margin: 5px;
+}
+.hdr {
+    height: 87vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.hdr-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hdr-1-1 {
+    width: 80%;
+    height: 80%;
+    color: #ffffff;
+}
+.hdr-1-1 h1 {
+    font-size: 3rem;
+    margin: 10px;
+}
+.hdr-1-1 h4 {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.hdr-btn {
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.hdr-btn button {
+    height: 60%;
+    width: 48%;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+}
+.hdr-btn button:first-child {
+    background-color: #00b6d1;
+    border: none;
+}
+.hdr-ach {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.hdr-ach a {
+    color: #ffffff;
+}
+.hdr-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hdr-2 video {
+    height: 60%;
+    width: 90%;
+}
+
+.first {
+    height: 60px;
+    background-color: #ffe500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.second {
+    height: 700px;
+    background-color: #454545;
+}
+.sec-hdr {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sec-hdr h1:first-child {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.sec-hdr > h1 {
+    color: #ffe500;
+    font-size: 2.5rem;
+}
+.sec-pra {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+.sec-main {
+    height: 80%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.sec-main-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-main-2 {
+    width: 90%;
+    height: 95%;
+}
+.sec-main-video {
+    width: 85%;
+    height: 90%;
+}
+.sec-main-video img {
+    height: 100%;
+    width: 100%;
+}
+.sec-main-2-pra {
+   height: 20%;
+   color: #ffffff;
+   font-size: 1.1rem;
+}
+.main2-1 {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+.main2-img img {
+    height: 40px;
+}
+.main2-hdr {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.main2-btn {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+.main2-btn button {
+    height: 50px;
+    width: 45%;
+    background-color: #00b6d1;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.main2-btn a {
+    height: 50px;
+    width: 35%;
+    color: #ffffff;
+}
+.sec-main-2main {
+    height: 50%;
+}
+.main2-pra2 {
+    color: #ffffff;
+}
+.main2-pra2  h1 {
+    color: #ffe500;
+}
+
+
+.third {
+    height: 370px;
+    background-color: #ffffff;
+}
+.thr-1 {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.thr-box-flex {
+    height: 78%;
+    display: flex;
+}
+.thr-box {
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+.thr-2-img {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thr-2-img img {
+    height: 70px;
+}
+.thr-2 h2 {
+    height: 20%;
+}
+.thr-2 p {
+    height: 30%;
+}
+.thr-3-img {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thr-3-img img {
+    height: 70px;
+}
+.thr-3 h2 {
+    height: 20%;
+}
+.thr-3 p {
+    height: 30%;
+}
+.thr-4-img {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thr-4-img img {
+    height: 120px;
+}
+.thr-4 h2 {
+    height: 20%;
+}
+.thr-4 p {
+    height: 30%;
+}
+.four {
+    height: 130vh;
+    background-color: #222222;
+}
+.five {
+    height: 200vh;
+    background-color: #f0f0f0;
+    margin: 5% 0%;
+}
+.fv-box1 {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.fv-box1-1 {
+    height: 30%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fv-box1-1 p {
+    font-size: 1.5rem;
+}
+.fv-box1-1 h2 {
+    font-size: 1.6rem;
+}
+.fv-boxes {
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f0f0f0;
+}
+.fv-box {
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fv-box-img {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.fv-box-img img {
+    height: 80px;
+}
+.fv-box-pra {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    gap: 5%;
+    margin: 10%;
+}
+
+.six {
+    height: 70vh;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+.six-container {
+    height: 100%;
+    width: 50%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.six-c-hdr {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 15%;
+    
+}
+.six-c-hdr h4 {
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+.six-c-img {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.six-c-img img {
+    height: 70px;
+}
+.sex-c-pra {
+    height: 40%;
+    width: 50%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.sex-c-pra h4 {
+    font-size: 1.5rem;
+}
+.sex-c-pra p {
+    font-size: 1.2rem;
+}
+.sex-c-pra a {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+footer {
+    height: 150vh;
+    background-color: #f0f0f0;
+}
+.ft-btn {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft-btn button {
+   background-color: #00b6d1;
+   height: 50px;
+   width: 40%;
+   color: #ffffff;
+   font-weight: bold;
+   border: none;
+   border-radius: 2px;
+}
+.ft-main {
+    height: 60%;
+    display: flex;
+}
+.ft-m-box {
+    height: 90%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.ft-bu {
+    height: 95%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.ft-m-box ul  {
+   list-style: none;
+}
+.ft-m-box ul li {
+    line-height: 1.5;
+    color: #454545;
+}
+
+.ft-bu input {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 90%;
+}
+.ft-bu button {
+    height: 35px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    font-weight: bold;
+    color: #ffffff;
+}
+.ft-ft {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftft-1 {
+    height: 95%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftft-img {
+    height: 40%;
+    width: 40%;
+}
+.ftft-img img {
+    height: 60px;
+}
+.ftft-2 {
+    height: 95%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftft-i {
+    height: 20%;
+    width: 60%;
+}
+.ftft-i i {
+    font-size: 2rem;
+    margin: 1%;
+}
